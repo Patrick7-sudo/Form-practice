@@ -17,17 +17,10 @@ Form pactice for FCC Cucuriculum
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- This is a form project.
+- the project intention is to allowed the user to submit a form with their details on.
+- The purpose of the project is to complete the requirement by FCC in order to receive a certification of completion
+- I undertook this project so I can complete the whole curiculum of FCC responsive web design  
 
 
 ## Features
@@ -43,8 +36,6 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
@@ -56,7 +47,7 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_ 
 
 
 ## Room for Improvement
@@ -73,9 +64,9 @@ To do:
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was inspired by FCC example of "Build a survey from".
+- This project was based on FreeCodeCamp requirement (https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form).
+- Many thanks to FreeCodeCamp and John Smilga for Some tutorial that i used to create an arrow to top function
 
 
 ## Contact

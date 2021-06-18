@@ -1,0 +1,15 @@
+#detail-section{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    width:70vw;
+    justify-content: center;
+    
+}
+
+#info{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
