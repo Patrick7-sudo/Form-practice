@@ -37,6 +37,7 @@
     background-color:  rgb(255, 255, 255,0.2);
 }
 
+
 #detail-section{
     background-color: rgb(255, 255, 255,0.5);
     border:2px solid orange;
@@ -49,6 +50,15 @@
     border-radius: 25px;
     box-sizing:border-box;
     overflow: scroll;
+}
+
+@media screen and (max-width:500px){
+    #detail-section{
+        width: auto;
+        height: auto;
+    }
+
+    
 }
 
 #center{
@@ -149,6 +159,14 @@
 #closed-btn{
     width:30%;
     margin: 3rem;
+}
+
+@media screen and (max-width:500px){
+    #alert-info{
+        background-color: tomato;
+        width: auto;
+        height: auto;
+    }
 }
 
 /* ==============
