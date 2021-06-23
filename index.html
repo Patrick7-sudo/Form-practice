@@ -8,44 +8,81 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div id="background">
-        <div id="form-center">
-            <section id="detail-section">
-                <form action="" id="info">
-                    <label for="Name">Name</label>
-                    <input type="text" id="Name" name="Name">
-
-                    <label for="email">email</label>
-                    <input type="email" id="email" name="email" placeholder="SSSSS@mail.com">
-
-                    <label for="age">age</label>
-                    <input type="number" id="age" name="age">
-
-                    <label for="role">Your current Role</label>
-                        <select name="role" id="role">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                    
-                    <label for="yesno">Do You Like The Food:</label>
-                        <label for="yes">Yes</label>
-                        <input type="checkbox" id="yes" name="yes" value="yes">
-
-                        <label for="no">no</label>
-                        <input type="checkbox" id="no" name="no" value="no">
-
-                    <label for="description">Why You Like The Food:</label>
-                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Tell Us More">
-
-                        </textarea>
-                    <input type="submit" value="submit">
-                </form>
-            </section>
+<!-- pop-up alert -->
+    <section class="alert hidden-alert">
+        <div id="alert-info">
+            <div id="greeting">
+                <h1>Hi <span id="hei">name is</span>,</h1>
+            </div>
+            <div id="message">
+                <p>This is a Project for FreeCodeCamp, any information provided are not stored and Thank you for taking your
+                    time to fill-in the form. </p>
+            </div>  
         </div>
 
+        <input type="button" value="Closed" id="closed-btn" class="btn">
+    </section>
+<!-- end of pop-up alert -->
+<!-- main survey -->
+    <div class="background">
+        <div class="form-center">
+            <section id="detail-section">
+                <div id=center>
+                    <h1 id="title">Chef's Flair Survey</h1>
+                    <p id="description"> Short Survey to Our Food</p>
+                <form action="" id="survey-info" class="template">
+                    <label for="Name" id="name-label">Name</label>
+                    <br>
+                    <input type="text" id="name" name="Name" class="input-text Name" placeholder="Name">
+                </form>
+
+                <form action="" id="email-info" class="template">
+                    <label for="email" id="email-label">email</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="email" class="input-text" >
+                </form>
+
+                <form action="" id="age-info" class="template">
+                    <label for="age" id="number-label">age</label>
+                    <br>
+                    <input type="number" id="number" min="16" max="101" name="age" class="input-text" placeholder="Age">
+                </form>
+
+                <form action="" id="dropdown" class="template">
+                    <label for="role">Your Food Order</label>
+                    <br>
+                        <select name="role" id="preference-info" class="input-text">
+                            <option value="volvo">Salmon with Mushroom</option>
+                            <option value="saab">Pad Thai with Shrimp</option>
+                            <option value="mercedes">Hawaiian Pizza</option>
+                            <option value="audi">Goulash with polenta</option>
+                        </select>
+                </form>
+
+                <form action="" id="yes-info" class="template">
+                    <label for="yesno">Do You Like The Food:</label>
+                        <label for="yes">Yes</label>
+                        <input type="checkbox" id="yes" name="yes" value="yes" class="input-check-box">
+
+                        <label for="no">no</label>
+                        <input type="checkbox" id="no" name="no" value="no" class="input-check-box">
+                </form>
+
+                <form action="" id="text-info" class="template">
+                    <label for="textarea">Why You Like/Dislike The Food:</label>
+                    <br>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Tell Us More" class="input-text">
+
+                        </textarea>
+
+                        <input type="submit" value="submit" id="submit-btn" class="btn">
+                </form>
+                    
+                </div>
+            </section>
+        </div>
     </div>
-    
+<!-- end of main-survey -->
+    <script src="./sciprt.js"></script>
 </body>
 </html>
